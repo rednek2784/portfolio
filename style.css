@@ -1,0 +1,76 @@
+.nav {
+  
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  padding-bottom: 100px;
+}
+#mainNav{
+  background-image: url("images/nav.png");
+    background-attachment: fixed
+    min-height: 3.5rem;
+    background-color: #fff;
+
+
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+   
+}
+
+.nav-link:hover, .nav-link:focus {
+    text-decoration: none;
+}
+
+.container,
+.container-fluid,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+.contactus .card hr {
+    border-color:#e77c7c;
+    border-width: 0.25rem;
+    width: 3rem;
+  }
+  .about-section {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #e77c7c 0%, rgba(241, 106, 106, 0.9) 75%, rgba(245, 99, 99, 0.8) 100%);
+h3{
+
+}
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
